@@ -1,0 +1,18 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka/
+management:
+  info:
+    env:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: health,info 
+info:
+  author: Silas Medeiros
+  mail: silas.medeiros7@gmail.com
+server:
+  port: ${PORT:8088}
+message: Generic
