@@ -14,5 +14,5 @@ info:
   author: Silas Medeiros
   mail: silas.medeiros7@gmail.com
 server:
-  port: ${PORT:8088}
+  port: ${PORT:8000}
 message: Generic
